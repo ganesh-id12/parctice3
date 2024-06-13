@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        nav {
+            /* border: solid red; */
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 2px 2px 5px gray;
+            background-color: rgb(246, 224, 116);
+            /* position:sticky; */
+
+
+        }
+
+        .left {
+            /* border: solid green; */
+            height: 10vh;
+            width: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 2rem;
+            color: rgb(192, 94, 8);
+
+
+        }
+
+        .center ul {
+            /* border: 1px solid gray;
+            height: 10vh;
+            width: 50px; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .center ul li{
+            /* border: 1px solid red; */
+            list-style: none;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all ease .5s;
+        
+        }
+
+        .center ul li:hover{
+            background-color: black;
+            color: white;
+        }
+
+        .center {
+            /* border: 1px solid yellow; */
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+
+
+
+        }
+
+        .right {
+            /* border: solid rebeccapurple; */
+            width: 20;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="left">GANESH</div>
+        <div class="center">
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>SERVISES</li>
+                <li>CONTACT</li>
+            </ul>
+        </div>
+        <div class="right">
+            <span><i class="fa-brands fa-instagram fa-2x"></i></span>
+            <span><i class="fa-brands fa-facebook fa-2x"></i></span>
+            <span><i class="fa-brands fa-twitter fa-2x"></i></span>
+            <span><i class="fa-brands fa-telegram fa-2x"></i></span>
+            <span><i class="fa-brands fa-youtube fa-2x"></i></span>
+        </div>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/39e3e6e48b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
